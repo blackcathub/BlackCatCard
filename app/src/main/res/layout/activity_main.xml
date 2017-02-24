@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cat.black.blackcatcard.MainActivity"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/wallpaper3a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/m16"
+        android:layout_marginRight="@dimen/m16"
+        android:layout_marginTop="@dimen/m40">
+
+        <TextView
+            android:text="@string/happy"
+            android:id="@+id/txt_happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="@dimen/t35"
+            android:textStyle="bold"
+            android:textColor="#F5F5F5"/>
+
+        <ImageView
+            android:src="@drawable/sleepcatmini2"
+            android:id="@+id/sleepcat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/circlecat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/m16"
+        android:layout_marginTop="@dimen/m8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:src="@drawable/circlecat13"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/image70"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:src="@drawable/circlecat23"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/image70"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:src="@drawable/circlecat33"
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/image70"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/circlecat"
+        android:layout_marginLeft="@dimen/m16"
+        android:layout_marginRight="@dimen/m16">
+
+        <TextView
+            android:text="@string/allcat"
+            android:id="@+id/txt_allcats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="@dimen/t35"
+            android:textStyle="bold"
+            android:textColor="#F5F5F5" />
+
+        <TextView
+            android:text="@string/from"
+            android:id="@+id/txt_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_allcats"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif"
+            android:textSize="@dimen/t20"
+            android:textColor="#F5F5F5"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:src="@drawable/meancat3"
+        android:id="@+id/meancat"
+        android:scaleType="fitCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/happy"
+        android:layout_above="@id/from"
+        android:padding="@dimen/p26" />
+
+</RelativeLayout>
