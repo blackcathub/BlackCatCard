@@ -7,4 +7,4 @@ I tried really hard to make it universal and look good on all kinds of screens. 
 
 This is how the app looks like launched on a terminal:
 
-<img src="https://cloud.githubusercontent.com/assets/25821037/23308615/00bdb7aa-faac-11e6-829b-75f436e77674.jpg" align="center" height="400" > <img src="https://cloud.githubusercontent.com/assets/25821037/23308614/00b54e08-faac-11e6-8566-6b2f1c8c6af2.jpg" align="center" width="400" >
+<img src="https://cloud.githubusercontent.com/assets/25821037/23308615/00bdb7aa-faac-11e6-829b-75f436e77674.jpg" align="center" height="420" > <img src="https://cloud.githubusercontent.com/assets/25821037/23308614/00b54e08-faac-11e6-8566-6b2f1c8c6af2.jpg" align="center" width="420" >
